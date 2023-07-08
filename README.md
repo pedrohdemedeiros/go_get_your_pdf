@@ -1,2 +1,35 @@
-# go_get_your_pdf
-Go game pdf generator
+## English
+
+# GoGetYourPDF
+
+GoGetYourPDF is a Python script that generates a PDF document from a Go game record in SGF format. Each turn in the game is represented as a page in the PDF, with a high-resolution image of the board state. Any comments associated with a turn are also included on the same page.
+
+## How to Use
+
+1. Ensure that you have Python installed, along with the required libraries: `re`, `matplotlib`, `fpdf`, and `numpy`.
+
+2. Save your Go game record in SGF format to the same directory as the script.
+
+3. Open the script in a text editor and replace `"game1.sgf"` with the filename of your SGF file.
+
+4. Run the script. The generated PDF will be saved as `"go_game_with_high_res_images.pdf"` in the same directory.
+
+Please note that this script does not currently support the capture rule of Go.
+
+## Português
+
+# GoGetYourPDF
+
+GoGetYourPDF é um script Python que gera um documento PDF a partir de um registro de jogo de Go no formato SGF. Cada turno no jogo é representado como uma página no PDF, com uma imagem de alta resolução do estado do tabuleiro. Quaisquer comentários associados a um turno também são incluídos na mesma página.
+
+## Como usar
+
+1. Certifique-se de que você tenha o Python instalado, juntamente com as bibliotecas necessárias: `re`, `matplotlib`, `fpdf` e `numpy`.
+
+2. Salve o registro do seu jogo de Go no formato SGF no mesmo diretório do script.
+
+3. Abra o script em um editor de texto e substitua `"game1.sgf"` pelo nome do arquivo do seu arquivo SGF.
+
+4. Execute o script. O PDF gerado será salvo como `"go_game_with_high_res_images.pdf"` no mesmo diretório.
+
+Por favor, note que este script atualmente não suporta a regra de captura de Go.
