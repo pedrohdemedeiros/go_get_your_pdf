@@ -6,13 +6,15 @@ GoGetYourPDF is a Python script that generates a PDF document from a Go game rec
 
 ## How to Use
 
-1. Ensure that you have Python installed, along with the required libraries: `re`, `matplotlib`, `fpdf`, and `numpy`.
+1. Ensure that you have Python installed, along with the required libraries: `argparse`, `re`, `matplotlib`, `fpdf`, and `numpy`.
 
-2. Save your Go game record in SGF format to the same directory as the script.
+2. Save your Go game record in SGF format.
 
-3. Open the script in a text editor and replace `"game1.sgf"` with the filename of your SGF file.
+3. Run the script from the command line using the `-i` option to specify the input SGF file and the `-o` option to specify the output PDF file. For example:
 
-4. Run the script. The generated PDF will be saved as `"go_game_with_high_res_images.pdf"` in the same directory.
+\```bash
+python script.py -i game1.sgf -o go_game_with_high_res_images.pdf
+\```
 
 Please note that this script does not currently support the capture rule of Go.
 
@@ -24,12 +26,14 @@ GoGetYourPDF é um script Python que gera um documento PDF a partir de um regist
 
 ## Como usar
 
-1. Certifique-se de que você tenha o Python instalado, juntamente com as bibliotecas necessárias: `re`, `matplotlib`, `fpdf` e `numpy`.
+1. Certifique-se de que você tenha o Python instalado, juntamente com as bibliotecas necessárias: `argparse`, `re`, `matplotlib`, `fpdf` e `numpy`.
 
-2. Salve o registro do seu jogo de Go no formato SGF no mesmo diretório do script.
+2. Salve o registro do seu jogo de Go no formato SGF.
 
-3. Abra o script em um editor de texto e substitua `"game1.sgf"` pelo nome do arquivo do seu arquivo SGF.
+3. Execute o script a partir da linha de comando usando a opção `-i` para especificar o arquivo SGF de entrada e a opção `-o` para especificar o arquivo PDF de saída. Por exemplo:
 
-4. Execute o script. O PDF gerado será salvo como `"go_game_with_high_res_images.pdf"` no mesmo diretório.
+```bash
+python script.py -i game1.sgf -o go_game_with_high_res_images.pdf
+```
 
 Por favor, note que este script atualmente não suporta a regra de captura de Go.
