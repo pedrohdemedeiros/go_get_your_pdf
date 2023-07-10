@@ -13,7 +13,7 @@ GoGetYourPDF is a Python script that generates a PDF document from a Go game rec
 3. Run the script from the command line using the `-i` option to specify the input SGF file and the `-o` option to specify the output PDF file. For example:
 
 ```bash
-python script.py -i game1.sgf -o go_game_with_high_res_images.pdf
+python go_get_your_pdf.py -i game1.sgf -o go_game_with_high_res_images.pdf
 ```
 
 Please note that this script currently does not support the Go capture rule. This will cause captured pieces to remain on the board unless they are replaced by others afterwards.
@@ -33,7 +33,7 @@ GoGetYourPDF é um script Python que gera um documento PDF a partir de um regist
 3. Execute o script a partir da linha de comando usando a opção `-i` para especificar o arquivo SGF de entrada e a opção `-o` para especificar o arquivo PDF de saída. Por exemplo:
 
 ```bash
-python script.py -i game1.sgf -o go_game_with_high_res_images.pdf
+python go_get_your_pdf.py -i game1.sgf -o go_game_with_high_res_images.pdf
 ```
 
 Por favor, note que este script atualmente não suporta a regra de captura de Go. Isso fará com que peças capturadas permaneçam no tabuleiro a não ser que sejam substituídas por outras em seguida.
